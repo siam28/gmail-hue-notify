@@ -1,0 +1,4 @@
+#!/bin/bash
+screen -S hue-light-gmail -d -m
+sleep 5
+screen -r hue-light-gmail -X stuff $'python2 /root/Code/hue-light-gmail/gmail-idler.py\n'
