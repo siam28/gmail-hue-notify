@@ -1,3 +1,5 @@
+# Requires imaplib2 and phue.
+# Use app password for password if 2-factor authentication is enabled.
 __author__ = 'siam'
 
 import threading, email, re
